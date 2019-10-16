@@ -1,0 +1,49 @@
+version 2
+run General-0-20190306-18:58:03-32556
+attr configname General
+attr controllerServiceTimeFactor 25
+attr datetime 20190306-18:58:03
+attr experiment General
+attr inifile Scenario_DynamicFatTree_Traffic_Drop.ini
+attr iterationvars "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25"
+attr iterationvars2 "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25, $repetition=0"
+attr measurement "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25"
+attr network openflow.networks.Scenario_DynamicFatTree
+attr processid 32556
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr switchServiceTimeFactor 25
+
+vector 0  Scenario_DynamicFatTree.open_flow_controller1.OF_Controller  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 1  Scenario_DynamicFatTree.open_flow_controller1.OF_Controller  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 98  Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 99  Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 100  Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+0	749	0.02025743152	0
+0	750	0.02025743152	1
+0	856	0.022303025917	0
+1	767	0.02039633152	0
+1	768	0.02053523152	0.0001389
+1	873	0.022441925917	0
+98	787	0.02054316632	0
+98	820	0.02055887552	1
+98	891	0.022453710317	0
+99	787	0.02054316632	0
+99	820	0.02055887552	0
+99	891	0.022453710317	0
+100	837	0.021418166319	0
+100	838	0.022293166318	0.000859290799
+100	908	0.023328710316	0

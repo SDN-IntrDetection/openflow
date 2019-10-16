@@ -1,0 +1,3221 @@
+version 2
+run General-0-20190306-18:58:03-32556
+attr configname General
+attr controllerServiceTimeFactor 25
+attr datetime 20190306-18:58:03
+attr experiment General
+attr inifile Scenario_DynamicFatTree_Traffic_Drop.ini
+attr iterationvars "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25"
+attr iterationvars2 "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25, $repetition=0"
+attr measurement "$switchServiceTimeFactor=25, $controllerServiceTimeFactor=25"
+attr network openflow.networks.Scenario_DynamicFatTree
+attr processid 32556
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr switchServiceTimeFactor 25
+
+scalar . 	controllerServiceTimeFactor 	25
+scalar . 	switchServiceTimeFactor 	25
+scalar Scenario_DynamicFatTree.open_flow_controller1.ethg$o[0].channel 	packets:count 	8
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.open_flow_controller1.ethg$o[0].channel 	packetBytes:sum 	630
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.gateCPlane$o[0].channel 	packets:count 	8
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.gateCPlane$o[0].channel 	packetBytes:sum 	604
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	minPathLength 	2
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	maxPathLength 	6
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	avgPathLength 	5.622641509434
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	numClients 	54
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	numPaths 	2862
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0] 	135
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10] 	81
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11] 	486
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12] 	459
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13] 	81
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14] 	324
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15] 	135
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16] 	81
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17] 	648
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1] 	81
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2] 	648
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3] 	135
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4] 	405
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5] 	324
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6] 	135
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7] 	243
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8] 	486
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9] 	297
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1] 	486
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4] 	486
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7] 	1458
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9] 	312
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[0] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[10] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[11] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[12] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[13] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[14] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[15] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[16] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[17] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[18] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[19] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[1] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[20] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[21] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[22] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[23] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[24] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[25] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[26] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[27] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[28] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[29] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[2] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[30] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[31] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[32] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[33] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[34] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[35] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[36] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[37] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[38] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[39] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[3] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[40] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[41] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[42] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[43] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[44] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[45] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[46] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[47] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[48] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[49] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[4] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[50] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[51] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[52] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[53] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[5] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[6] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[7] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[8] 	106
+scalar Scenario_DynamicFatTree.openFlowGraphAnalyzer 	nodeInNumPaths-Scenario_DynamicFatTree.fat_tree.client[9] 	106
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[0] 	numPacketOut 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[0] 	numFlowMod 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[0] 	packetsDropped 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[0] 	packetsFlooded 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[1] 	numPacketOut 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[1] 	numFlowMod 	1
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[1] 	packetsDropped 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.controllerApps[1] 	packetsFlooded 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.OF_Controller 	numPacketIn 	0
+scalar Scenario_DynamicFatTree.open_flow_controller1.OF_Controller 	packetsPerSecondAt-0 	3
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateControlPlane$o[0].channel 	packets:count 	1
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateControlPlane$o[0].channel 	packetBytes:sum 	72
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateControlPlane$o[0].channel 	packets:count 	7
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateControlPlane$o[0].channel 	packetBytes:sum 	532
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[0].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[0].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[1].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[2].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[3].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[4].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[5].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[5].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[6].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[6].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[7].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[7].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[8].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[8].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[9].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[9].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[10].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[10].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[11].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[11].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[12].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[12].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[13].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[13].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[14].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[14].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[15].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[15].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[16].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[16].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[17].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[17].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[18].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[18].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[19].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[19].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[20].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[20].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[21].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[21].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[22].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[22].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[23].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[23].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[24].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[24].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[25].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[25].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[26].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[26].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[27].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[27].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[28].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[28].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[29].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[29].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[30].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[30].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[31].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[31].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[32].channel 	packets:count 	8
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[32].channel 	packetBytes:sum 	630
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[33].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[33].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[34].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[34].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[35].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[35].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[36].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[36].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[37].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[37].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[38].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[38].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[39].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[39].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[40].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[40].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[41].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[41].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[42].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[42].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[43].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[43].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[44].channel 	packets:count 	2
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.etherSwitch.ethg$o[44].channel 	packetBytes:sum 	144
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[2].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[2].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[3].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[3].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[4].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[4].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[5].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[5].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[6].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[6].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[7].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[7].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[8].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[8].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[9].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[9].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[10].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[10].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[11].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[11].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[12].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[12].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[13].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[13].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[14].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[14].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[15].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[15].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[16].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[16].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[17].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[17].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[18].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[18].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[19].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[19].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[20].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[20].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[21].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[21].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[22].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[22].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[23].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[23].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[24].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[24].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[25].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[25].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[26].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[26].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[27].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[27].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[28].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[28].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[29].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[29].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[30].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[30].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[31].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[31].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[32].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[32].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[33].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[33].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[34].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[34].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[35].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[35].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[36].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[36].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[37].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[37].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[38].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[38].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[39].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[39].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[40].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[40].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[41].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[41].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[42].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[42].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[43].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[43].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[44].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[44].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[45].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[45].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[46].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[46].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[47].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[47].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[48].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[48].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[49].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[49].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[50].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[50].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[51].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[51].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[52].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[52].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.client[53].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_DynamicFatTree.fat_tree.client[53].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[0].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[1].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[2].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[3].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[4].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[5].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[6].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[7].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.coreLayerSwitches[8].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[0].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[1].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[2].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[3].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[4].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[5].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[6].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[7].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[8].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[9].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[10].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[11].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[12].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[13].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[14].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[15].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[16].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.aggLayerSwitches[17].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[0].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[1].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[2].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[3].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[4].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch 	packetsControlPlane 	3
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[5].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[6].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[7].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[8].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[9].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[10].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[11].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[12].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[13].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[14].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[15].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[16].OF_Switch 	flowTableMiss 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].OF_Switch 	packetsDataPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].OF_Switch 	packetsControlPlane 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].OF_Switch 	flowTableHit 	0
+scalar Scenario_DynamicFatTree.fat_tree.edgeLayerSwitches[17].OF_Switch 	flowTableMiss 	0

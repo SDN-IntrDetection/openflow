@@ -1,0 +1,353 @@
+file 2571107 1552999109                                         
+version 2
+run General-0-20190319-13:35:51-24773
+attr configname General
+attr controllerServiceTimeFactor 1
+attr datetime 20190319-13:35:51
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $controllerServiceTimeFactor=1
+attr iterationvars2 "$controllerServiceTimeFactor=1, $repetition=0"
+attr measurement $controllerServiceTimeFactor=1
+attr network openflow.networks.Scenario_TestCaseAltered
+attr processid 24773
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 82  Scenario_TestCaseAltered.pgw.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 83  Scenario_TestCaseAltered.pgw.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 93  Scenario_TestCaseAltered.pgw.pppInterface.queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 94  Scenario_TestCaseAltered.pgw.pppInterface.ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 121  Scenario_TestCaseAltered.eNodeB.ppp.queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 122  Scenario_TestCaseAltered.eNodeB.ppp.ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 187  Scenario_TestCaseAltered.server.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 188  Scenario_TestCaseAltered.server.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 111  Scenario_TestCaseAltered.eNodeB.nic.mac  receivedPacketFromLowerLayer:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+vector 258  Scenario_TestCaseAltered.open_flow_switch1.tcp  tcpRcvQueueBytes  ETV
+vector 245  Scenario_TestCaseAltered.open_flow_switch1.tcp  "advertised window"  ETV
+vector 244  Scenario_TestCaseAltered.open_flow_switch1.tcp  "receive window"  ETV
+vector 247  Scenario_TestCaseAltered.open_flow_switch1.tcp  "sent ack"  ETV
+vector 19  Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 30  Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 26  Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 21  Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 58  Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 59  Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 67  Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 56  Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 66  Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 62  Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 57  Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 22  Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 23  Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 31  Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 200  Scenario_TestCaseAltered.open_flow_controller1.tcp  "rcvd seq"  ETV
+vector 201  Scenario_TestCaseAltered.open_flow_controller1.tcp  "rcvd ack"  ETV
+vector 197  Scenario_TestCaseAltered.open_flow_controller1.tcp  "advertised window"  ETV
+vector 195  Scenario_TestCaseAltered.open_flow_controller1.tcp  "send window"  ETV
+vector 210  Scenario_TestCaseAltered.open_flow_controller1.tcp  tcpRcvQueueBytes  ETV
+vector 196  Scenario_TestCaseAltered.open_flow_controller1.tcp  "receive window"  ETV
+vector 199  Scenario_TestCaseAltered.open_flow_controller1.tcp  "sent ack"  ETV
+vector 248  Scenario_TestCaseAltered.open_flow_switch1.tcp  "rcvd seq"  ETV
+vector 249  Scenario_TestCaseAltered.open_flow_switch1.tcp  "rcvd ack"  ETV
+vector 243  Scenario_TestCaseAltered.open_flow_switch1.tcp  "send window"  ETV
+vector 246  Scenario_TestCaseAltered.open_flow_switch1.tcp  "sent seq"  ETV
+vector 250  Scenario_TestCaseAltered.open_flow_switch1.tcp  "unacked bytes"  ETV
+vector 202  Scenario_TestCaseAltered.open_flow_controller1.tcp  "unacked bytes"  ETV
+vector 212  Scenario_TestCaseAltered.open_flow_controller1.tcp  cwnd  ETV
+vector 203  Scenario_TestCaseAltered.open_flow_controller1.tcp  "rcvd dupAcks"  ETV
+vector 262  Scenario_TestCaseAltered.open_flow_switch1.tcp  "measured RTT"  ETV
+vector 263  Scenario_TestCaseAltered.open_flow_switch1.tcp  "smoothed RTT"  ETV
+vector 264  Scenario_TestCaseAltered.open_flow_switch1.tcp  RTTVAR  ETV
+vector 265  Scenario_TestCaseAltered.open_flow_switch1.tcp  RTO  ETV
+vector 260  Scenario_TestCaseAltered.open_flow_switch1.tcp  cwnd  ETV
+vector 251  Scenario_TestCaseAltered.open_flow_switch1.tcp  "rcvd dupAcks"  ETV
+vector 198  Scenario_TestCaseAltered.open_flow_controller1.tcp  "sent seq"  ETV
+vector 214  Scenario_TestCaseAltered.open_flow_controller1.tcp  "measured RTT"  ETV
+vector 215  Scenario_TestCaseAltered.open_flow_controller1.tcp  "smoothed RTT"  ETV
+vector 216  Scenario_TestCaseAltered.open_flow_controller1.tcp  RTTVAR  ETV
+vector 217  Scenario_TestCaseAltered.open_flow_controller1.tcp  RTO  ETV
+vector 306  Scenario_TestCaseAltered.clientG1[0].tcp  tcpRcvQueueBytes  ETV
+vector 293  Scenario_TestCaseAltered.clientG1[0].tcp  "advertised window"  ETV
+vector 292  Scenario_TestCaseAltered.clientG1[0].tcp  "receive window"  ETV
+vector 295  Scenario_TestCaseAltered.clientG1[0].tcp  "sent ack"  ETV
+vector 162  Scenario_TestCaseAltered.clientG1[0].networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 176  Scenario_TestCaseAltered.clientG1[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 172  Scenario_TestCaseAltered.clientG1[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 167  Scenario_TestCaseAltered.clientG1[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 45  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 46  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 38  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 33  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 8  Scenario_TestCaseAltered.clientG2[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 9  Scenario_TestCaseAltered.clientG2[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 17  Scenario_TestCaseAltered.clientG2[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 3  Scenario_TestCaseAltered.clientG2[0].networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 16  Scenario_TestCaseAltered.clientG2[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 12  Scenario_TestCaseAltered.clientG2[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 7  Scenario_TestCaseAltered.clientG2[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 34  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 35  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 49  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 44  Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 168  Scenario_TestCaseAltered.clientG1[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 169  Scenario_TestCaseAltered.clientG1[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 177  Scenario_TestCaseAltered.clientG1[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 224  Scenario_TestCaseAltered.clientG2[0].tcp  "rcvd seq"  ETV
+vector 225  Scenario_TestCaseAltered.clientG2[0].tcp  "rcvd ack"  ETV
+vector 221  Scenario_TestCaseAltered.clientG2[0].tcp  "advertised window"  ETV
+vector 219  Scenario_TestCaseAltered.clientG2[0].tcp  "send window"  ETV
+vector 234  Scenario_TestCaseAltered.clientG2[0].tcp  tcpRcvQueueBytes  ETV
+vector 220  Scenario_TestCaseAltered.clientG2[0].tcp  "receive window"  ETV
+vector 223  Scenario_TestCaseAltered.clientG2[0].tcp  "sent ack"  ETV
+vector 296  Scenario_TestCaseAltered.clientG1[0].tcp  "rcvd seq"  ETV
+vector 297  Scenario_TestCaseAltered.clientG1[0].tcp  "rcvd ack"  ETV
+vector 291  Scenario_TestCaseAltered.clientG1[0].tcp  "send window"  ETV
+vector 160  Scenario_TestCaseAltered.clientG1[0].tcpApp[0]  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 294  Scenario_TestCaseAltered.clientG1[0].tcp  "sent seq"  ETV
+vector 298  Scenario_TestCaseAltered.clientG1[0].tcp  "unacked bytes"  ETV
+vector 226  Scenario_TestCaseAltered.clientG2[0].tcp  "unacked bytes"  ETV
+vector 227  Scenario_TestCaseAltered.clientG2[0].tcp  "rcvd dupAcks"  ETV
+vector 0  Scenario_TestCaseAltered.clientG2[0].tcpApp[0]  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 1  Scenario_TestCaseAltered.clientG2[0].tcpApp[0]  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 310  Scenario_TestCaseAltered.clientG1[0].tcp  "measured RTT"  ETV
+vector 311  Scenario_TestCaseAltered.clientG1[0].tcp  "smoothed RTT"  ETV
+vector 312  Scenario_TestCaseAltered.clientG1[0].tcp  RTTVAR  ETV
+vector 313  Scenario_TestCaseAltered.clientG1[0].tcp  RTO  ETV
+vector 308  Scenario_TestCaseAltered.clientG1[0].tcp  cwnd  ETV
+vector 299  Scenario_TestCaseAltered.clientG1[0].tcp  "rcvd dupAcks"  ETV
+vector 236  Scenario_TestCaseAltered.clientG2[0].tcp  cwnd  ETV
+236	13908 26 75889 75889 2.00018056 2.00018056 1 1072 1072 1072 1149184
+219	13934 84 4045 75889 1.000396959994 2.00018056 3 7504 7504 22512 168930048
+220	14018 58622 4045 75839 1.000396959994 2.00004852 1960 7504 7504 14707840 110367631360
+221	72640 63147 4045 75839 1.000396959994 2.00004852 1961 257505 1306082 1533988091 1.3804986447671e+15
+223	135787 63102 4045 75839 1.000396959994 2.00004852 1960 250001 1298578 1519022746 1.3575244749387e+15
+224	198889 63132 4045 75889 1.000396959994 2.00018056 1961 250000 1298578 1518224169 1.3559631706166e+15
+225	262021 62568 4045 75889 1.000396959994 2.00018056 1961 0 250101 490196001 1.225980201002e+14
+226	324589 72 4086 75889 1.000493999994 2.00018056 3 0 1 1 1
+227	324661 52716 4100 75889 1.000585519993 2.00018056 1959 0 0 0 0
+234	377377 105412 4045 75839 1.000396959994 2.00004852 3917 0 0 0 0
+0	482789 52670 4101 72586 1.000585519993 1.137440039993 1957 160 536 1048576 561976576
+1	535459 48756 4101 72586 1.000585519993 1.137440039993 1957 0 0 0 0
+3	584215 24 3886 3886 1.000107279998 1.000107279998 1 1 1 1 1
+7	584239 50811 3891 75851 1.000113039998 2.000060999999 1961 64 64 125504 8032256
+8	635050 52789 3883 75886 1.000107279998 2.00018056 1962 64 594 1162402 690215220
+9	687839 52789 3883 75886 1.000107279998 2.00018056 1962 64 594 1162402 690215220
+12	740628 52768 3889 75843 1.000107279998 2.00004852 1961 64 64 125504 8032256
+16	793396 52768 3888 75842 1.000107279998 2.00004852 1961 28 44 78432 3137120
+17	846164 54751 3884 75887 1.000107279998 2.00018056 1962 28 576 1127048 649001376
+19	900915 25 3010 3010 0.811518474249 0.811518474249 1 1 1 1 1
+21	900940 364 3014 4031 0.811524234249 1.000340919994 14 64 90 1002 73620
+22	901304 366 3025 4023 0.811531994249 1.000335159994 14 64 114 1054 83548
+23	901670 366 3025 4023 0.811531994249 1.000335159994 14 64 114 1054 83548
+26	902036 360 3013 4030 0.811518474249 1.000335159994 14 64 90 1002 73620
+30	902396 360 3012 4029 0.811518474249 1.000335159994 14 28 72 688 36960
+31	902756 364 3026 4024 0.811531994249 1.000335159994 14 28 96 752 46048
+33	903120 54751 3881 75884 1.000106279998 2.00017956 1962 64 594 1162402 690215220
+34	957871 52772 3893 75853 1.000114039998 2.000061999999 1961 64 64 125504 8032256
+35	1010643 52772 3893 75853 1.000114039998 2.000061999999 1961 64 64 125504 8032256
+38	1063415 54749 3880 75883 1.000100519998 2.0001738 1962 64 594 1162402 690215220
+44	1118164 52775 3961 75866 1.000251119996 2.00013104 1961 64 64 125504 8032256
+45	1170939 54737 3834 75879 1.00000676 2.0001388 1962 64 594 1162402 690215220
+46	1225676 54737 3834 75879 1.00000676 2.0001388 1962 64 594 1162402 690215220
+49	1280413 52775 3960 75865 1.000245359996 2.00012528 1961 64 64 125504 8032256
+56	1333188 25 3019 3019 0.811525234249 0.811525234249 1 1 1 1 1
+57	1333213 366 3023 4021 0.811530994249 1.000334159994 14 64 114 1054 83548
+58	1333579 364 3016 4033 0.811525234249 1.000341919994 14 64 90 1002 73620
+59	1333943 364 3016 4033 0.811525234249 1.000341919994 14 64 90 1002 73620
+62	1334307 366 3022 4020 0.811525234249 1.000326959994 14 64 114 1054 83548
+66	1334673 364 3021 4019 0.811525234249 1.000326959994 14 28 96 752 46048
+67	1335037 364 3017 4034 0.811525234249 1.000341919994 14 28 72 688 36960
+82	1335401 9 0 0 0 0 1 0 0 0 0
+83	1335410 9 0 0 0 0 1 0 0 0 0
+93	1335419 9 0 0 0 0 1 0 0 0 0
+94	1335428 9 0 0 0 0 1 0 0 0 0
+111	1335437 158535 41 248590 0.002 49.1 8184 0 0 0 0
+121	1493972 10 0 0 0 0 1 0 0 0 0
+122	1493982 10 0 0 0 0 1 0 0 0 0
+160	1493992 32 4066 4066 1.000445479994 1.000445479994 1 1048576 1048576 1048576 1099511627776
+162	1494024 13 3824 3824 1 1 1 1 1 1 1
+167	1494037 56698 3832 75877 1.00000576 2.0001378 1962 64 594 1162402 690215220
+168	1550735 54736 3963 75868 1.000252119996 2.00013204 1961 64 64 125504 8032256
+169	1605471 54736 3963 75868 1.000252119996 2.00013204 1961 64 64 125504 8032256
+172	1660207 56684 3827 75875 1 2.00013204 1962 64 594 1162402 690215220
+176	1716891 56684 3826 75874 1 2.00013204 1962 28 576 1127048 649001376
+177	1773575 54736 3964 75869 1.000252119996 2.00013204 1961 28 44 78432 3137120
+187	1828311 10 0 0 0 0 1 0 0 0 0
+188	1828321 10 0 0 0 0 1 0 0 0 0
+195	1828331 261 3036 4036 0.811538754249 1.000341919994 9 7504 7504 67536 506790144
+196	1828592 377 3036 4017 0.811538754249 1.000326959994 13 7504 7504 97552 732030208
+197	1828969 434 3036 4017 0.811538754249 1.000326959994 14 210384 210520 2946304 620050557184
+198	1829403 217 3069 4017 0.811563546249 1.000326959994 7 202885 203061 1420651 288321350207
+199	1829620 403 3036 4017 0.811538754249 1.000326959994 13 202880 203016 2638368 535460472576
+200	1830023 403 3036 4036 0.811538754249 1.000341919994 13 202879 203016 2638231 535404864961
+201	1830426 398 3036 4036 0.811538754249 1.000341919994 13 0 203085 2435468 494292084684
+202	1830824 395 3055 4036 0.811552434249 1.000341919994 15 0 56 200 8128
+203	1831219 312 3055 4036 0.811552434249 1.000341919994 12 0 0 0 0
+210	1831531 468 3036 4017 0.811538754249 1.000326959994 18 0 0 0 0
+212	1831999 232 3055 4036 0.811552434249 1.000341919994 8 1072 4824 23584 81592064
+214	1832231 250 3089 4036 0.811577226249 1.000341919994 7 1.368e-05 1.8683999e-05 0.000110771997 1.780054981016e-09
+215	1832481 254 3089 4036 0.811577226249 1.000341919994 7 1.71e-06 9.735845e-06 4.2621062e-05 3.1282740952693e-10
+216	1832735 264 3089 4036 0.811577226249 1.000341919994 7 0.294528332738 0.65625171 3.188379557635 1.5541663015222
+217	1832999 268 3089 4036 0.811577226249 1.000341919994 7 1.178123066797 2.62500855 12.753560851602 24.866797510226
+243	1833267 174 3045 4001 0.811545514249 1.000309479995 6 7504 7504 45024 337860096
+244	1833441 373 3008 4026 0.811518474249 1.000335159994 13 7504 7504 97552 732030208
+245	1833814 428 3008 4026 0.811518474249 1.000335159994 14 7504 210589 2743409 575839149957
+246	1834242 151 3045 3976 0.811545514249 1.000293879996 5 202880 202984 1014624 205892379904
+247	1834393 394 3008 4026 0.811518474249 1.000335159994 13 0 203085 2435468 494292084684
+248	1834787 403 3045 4026 0.811545514249 1.000335159994 13 202884 203061 2638152 535372808140
+249	1835190 403 3045 4026 0.811545514249 1.000335159994 13 202880 203016 2638368 535460472576
+250	1835593 260 3045 4001 0.811545514249 1.000309479995 10 0 32 136 4160
+251	1835853 312 3067 4026 0.811559194249 1.000335159994 12 0 0 0 0
+258	1836165 516 3008 4026 0.811518474249 1.000335159994 20 0 0 0 0
+260	1836681 145 3067 4001 0.811559194249 1.000309479995 5 1072 3216 10720 25856640
+262	1836826 186 3067 4001 0.811559194249 1.000309479995 5 1.368e-05 1.5599999e-05 7.6079996e-05 1.1605822752e-09
+263	1837012 181 3067 4001 0.811559194249 1.000309479995 5 1.71e-06 7.457935e-06 2.3874434e-05 1.347016821794e-10
+264	1837193 188 3067 4001 0.811559194249 1.000309479995 5 0.38468735664 0.65625171 2.557248167033 1.3541178189695
+265	1837381 191 3067 4001 0.811559194249 1.000309479995 5 1.538756884495 2.62500855 10.229016542566 21.66597496285
+291	1837572 58603 4062 75863 1.000445479994 2.00009704 1959 7504 7504 14700336 110311321344
+292	1896175 58622 3823 75871 1 2.00013204 1961 7504 7504 14715344 110423941376
+293	1954797 62573 3823 75871 1 2.00013204 1962 7504 257605 505168949 1.301316654454e+14
+294	2017370 63005 4068 72385 1.000445479994 1.136937719993 1957 250001 1298417 1515127013 1.3524655630696e+15
+295	2080375 62539 3823 75871 1 2.00013204 1961 0 250101 490196001 1.225980201002e+14
+296	2142914 62549 4062 75871 1.000445479994 2.00013204 1960 250099 250100 490195999 1.225980190998e+14
+297	2205463 63109 4062 75871 1.000445479994 2.00013204 1960 250001 1298578 1519022746 1.3575244749387e+15
+298	2268572 116732 4068 75863 1.000445479994 2.00009704 3903 0 7504 28072561 203058967169
+299	2385304 52723 4118 75871 1.000634039993 2.00013204 1959 0 0 0 0
+306	2438027 52739 3823 75871 1 2.00013204 1961 0 0 0 0
+308	2490766 60515 4118 75863 1.000634039993 2.00009704 1958 1072 72911 131810931 9073529405149
+310	2551281 4718 4118 72509 1.000634039993 1.137252719993 143 0.00018184 0.00105 0.136807239999 0.00013327511144442
+311	2555999 5683 4118 72509 1.000634039993 1.137252719993 143 2.3569999e-05 0.000979999988 0.129947239555 0.00012360245618432
+312	2561682 5476 4118 72509 1.000634039993 1.137252719993 143 3.989e-09 0.65627357 5.257839973046 1.8394150602
+313	2567158 3949 4118 72509 1.000634039993 1.137252719993 143 1 2.625117849999 148.79038080855 160.94547564289

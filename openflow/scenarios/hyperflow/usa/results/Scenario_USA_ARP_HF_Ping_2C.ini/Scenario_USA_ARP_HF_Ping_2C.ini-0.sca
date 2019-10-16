@@ -1,0 +1,3117 @@
+version 2
+run General-0-20181030-10:41:48-11509
+attr configname General
+attr cstFaktor 539.9568034557
+attr datetime 20181030-10:41:48
+attr experiment General
+attr hfFaktor 539.9568034557
+attr inifile Scenario_USA_ARP_HF_Ping_2C.ini
+attr iterationvars "$cstFaktor=539.9568034557, $synchronizerServiceTimeFactor=539.9568034557, $hfFaktor=539.9568034557"
+attr iterationvars2 "$cstFaktor=539.9568034557, $synchronizerServiceTimeFactor=539.9568034557, $hfFaktor=539.9568034557, $repetition=0"
+attr measurement "$cstFaktor=539.9568034557, $synchronizerServiceTimeFactor=539.9568034557, $hfFaktor=539.9568034557"
+attr network openflow.networks.Scenario_USA_HF
+attr processid 11509
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr synchronizerServiceTimeFactor 539.9568034557
+
+scalar . 	cstFaktor 	539.9568034557
+scalar . 	hfFaktor 	539.9568034557
+scalar . 	synchronizerServiceTimeFactor 	539.9568034557
+scalar Scenario_USA_HF.open_flow_controller1.ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.open_flow_controller1.ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.open_flow_controller2.ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.open_flow_controller2.ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.hf_synchronizer.ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.hf_synchronizer.ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateDPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.gateCPlane$o[0].channel 	packets:count 	1
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.gateCPlane$o[0].channel 	packetBytes:sum 	72
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateDPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.gateCPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.gateCPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateDPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.gateCPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateDPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.gateCPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.gateCPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateDPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.gateCPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.gateCPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.gateDPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.gateDPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.gateDPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.gateDPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.gateCPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.gateCPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[0] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[0] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[0] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[0] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[1] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[1] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[1] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[1] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	arpFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller1.controllerApps[2] 	arpAnswered 	0
+scalar Scenario_USA_HF.open_flow_controller1.OF_Controller 	numPacketIn 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[0] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[0] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[0] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[0] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[1] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[1] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[1] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[1] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	numPacketOut 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	numFlowMod 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	packetsDropped 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	packetsFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	arpFlooded 	0
+scalar Scenario_USA_HF.open_flow_controller2.controllerApps[2] 	arpAnswered 	0
+scalar Scenario_USA_HF.open_flow_controller2.OF_Controller 	numPacketIn 	0
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Vancouver.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Vancouver.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Vancouver.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Vancouver.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Vancouver.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Vancouver.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Seattle.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Seattle.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Seattle.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Seattle.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Seattle.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Seattle.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Portland.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Portland.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Portland.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Portland.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Portland.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Portland.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Sunnyvale.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Sunnyvale.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_LosAngeles.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_LosAngeles.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_LosAngeles.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_LosAngeles.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_LosAngeles.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_LosAngeles.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	1
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	72
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Missoula.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Missoula.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Missoula.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Missoula.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Missoula.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Missoula.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.etherSwitch.ethg$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_SaltLakeCity.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_SaltLakeCity.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Phoenix.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Phoenix.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Phoenix.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Phoenix.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Phoenix.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Phoenix.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Denver.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Denver.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Denver.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Denver.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Denver.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Denver.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Albuqerque.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Albuqerque.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Albuqerque.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Albuqerque.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Albuqerque.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Albuqerque.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_ElPaso.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_ElPaso.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_ElPaso.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_ElPaso.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_ElPaso.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_ElPaso.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Minneapolis.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Minneapolis.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Minneapolis.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Minneapolis.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Minneapolis.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Minneapolis.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.etherSwitch.ethg$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_KansasCity.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_KansasCity.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_KansasCity.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_KansasCity.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_KansasCity.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_KansasCity.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Dallas.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Dallas.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Dallas.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Dallas.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Dallas.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Dallas.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.etherSwitch.ethg$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Houston.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Houston.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Houston.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Houston.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Houston.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Houston.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.etherSwitch.ethg$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Chicago.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Chicago.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Chicago.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Chicago.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Chicago.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Chicago.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Indianapolis.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Indianapolis.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Indianapolis.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Indianapolis.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Indianapolis.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Indianapolis.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Louisville.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Louisville.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Louisville.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Louisville.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Louisville.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Louisville.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Nashville.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Nashville.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Nashville.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Nashville.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Nashville.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Nashville.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Memphis.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Memphis.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Memphis.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Memphis.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Memphis.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Memphis.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jackson.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Jackson.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Jackson.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Jackson.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Jackson.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Jackson.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_BatonRouge.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_BatonRouge.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_BatonRouge.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_BatonRouge.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_BatonRouge.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_BatonRouge.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Cleveland.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Cleveland.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Cleveland.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Cleveland.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Cleveland.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Cleveland.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Pittsburgh.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Pittsburgh.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Atlanta.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Atlanta.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Atlanta.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Atlanta.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Atlanta.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Atlanta.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Jacksonville.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Jacksonville.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Jacksonville.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Jacksonville.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Jacksonville.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Jacksonville.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Buffalo.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Buffalo.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Buffalo.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Buffalo.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Buffalo.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Buffalo.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Ashburn.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Ashburn.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Ashburn.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Ashburn.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Ashburn.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Ashburn.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Raleigh.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Raleigh.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Raleigh.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Raleigh.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Raleigh.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Raleigh.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_WashingtonDC.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_WashingtonDC.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Miami.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Miami.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Miami.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Miami.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Miami.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Miami.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Philadelphia.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Philadelphia.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Philadelphia.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Philadelphia.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Philadelphia.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Philadelphia.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_NewYork.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_NewYork.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_NewYork.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_NewYork.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_NewYork.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_NewYork.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.client[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.client[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.client[1].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_USA_HF.ofs_Boston.client[1].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.OF_Switch 	flowTableHit 	0
+scalar Scenario_USA_HF.ofs_Boston.open_flow_switch.OF_Switch 	flowTableMiss 	0
+scalar Scenario_USA_HF.ofs_Boston.client[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Boston.client[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_USA_HF.ofs_Boston.client[1].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_USA_HF.ofs_Boston.client[1].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"

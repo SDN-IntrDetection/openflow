@@ -1,0 +1,106 @@
+version 2
+run General-0-20190316-15:37:10-12783
+attr configname General
+attr controllerServiceTimeFactor 1
+attr datetime 20190316-15:37:10
+attr experiment General
+attr inifile Scenario_TestCase_TrafficGenerator.ini
+attr iterationvars "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1"
+attr iterationvars2 "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1, $repetition=0"
+attr measurement "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1"
+attr network openflow.networks.Scenario_TestCase
+attr processid 12783
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr switchServiceTimeFactor 1
+
+vector 51  Scenario_TestCase.open_flow_controller1.OF_Controller  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 52  Scenario_TestCase.open_flow_controller1.OF_Controller  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 45  Scenario_TestCase.open_flow_switch8.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 46  Scenario_TestCase.open_flow_switch8.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 47  Scenario_TestCase.open_flow_switch8.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 39  Scenario_TestCase.open_flow_switch6.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 40  Scenario_TestCase.open_flow_switch6.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 41  Scenario_TestCase.open_flow_switch6.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 30  Scenario_TestCase.open_flow_switch3.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 31  Scenario_TestCase.open_flow_switch3.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 32  Scenario_TestCase.open_flow_switch3.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 42  Scenario_TestCase.open_flow_switch7.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 43  Scenario_TestCase.open_flow_switch7.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 44  Scenario_TestCase.open_flow_switch7.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 24  Scenario_TestCase.open_flow_switch1.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 25  Scenario_TestCase.open_flow_switch1.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 26  Scenario_TestCase.open_flow_switch1.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 33  Scenario_TestCase.open_flow_switch4.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 34  Scenario_TestCase.open_flow_switch4.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 35  Scenario_TestCase.open_flow_switch4.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 36  Scenario_TestCase.open_flow_switch5.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 37  Scenario_TestCase.open_flow_switch5.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 38  Scenario_TestCase.open_flow_switch5.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 27  Scenario_TestCase.open_flow_switch2.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 28  Scenario_TestCase.open_flow_switch2.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 29  Scenario_TestCase.open_flow_switch2.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"
+vector 48  Scenario_TestCase.open_flow_switch9.OF_Switch  queueSize:vector  ETV
+attr interpolationmode  none
+attr title  "QueueSize, vector"
+vector 49  Scenario_TestCase.open_flow_switch9.OF_Switch  bufferSize:vector  ETV
+attr interpolationmode  none
+attr title  "BufferSize, vector"
+vector 50  Scenario_TestCase.open_flow_switch9.OF_Switch  waitingTime:vector  ETV
+attr interpolationmode  none
+attr title  "WaitingTime, vector"

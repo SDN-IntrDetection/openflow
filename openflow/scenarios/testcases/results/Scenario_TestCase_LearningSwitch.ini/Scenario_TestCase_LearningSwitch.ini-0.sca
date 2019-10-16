@@ -1,0 +1,574 @@
+version 2
+run General-0-20181030-16:31:33-15393
+attr configname General
+attr controllerServiceTimeFactor 1
+attr datetime 20181030-16:31:33
+attr experiment General
+attr inifile Scenario_TestCase_LearningSwitch.ini
+attr iterationvars "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1"
+attr iterationvars2 "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1, $repetition=0"
+attr measurement "$switchServiceTimeFactor=1, $controllerServiceTimeFactor=1"
+attr network openflow.networks.Scenario_TestCase
+attr processid 15393
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+attr switchServiceTimeFactor 1
+
+scalar . 	controllerServiceTimeFactor 	1
+scalar . 	switchServiceTimeFactor 	1
+scalar Scenario_TestCase.clientG1[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG1[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG2[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG2[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG3[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG3[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG4[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG4[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG5[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG5[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG6[0].ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.clientG6[0].ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch1.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch1.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch1.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch2.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch2.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch2.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch3.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch3.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch3.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch4.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch5.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch6.gateDataPlane$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch7.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch7.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch7.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch8.gateControlPlane$o[0].channel 	packets:count 	1
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch8.gateControlPlane$o[0].channel 	packetBytes:sum 	72
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch8.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch9.gateControlPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch9.gateControlPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_switch9.gateDataPlane$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[0].channel 	packets:count 	1
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[0].channel 	packetBytes:sum 	72
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[1].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[1].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[2].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[2].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[3].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[3].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[4].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[4].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[5].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[5].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[6].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[6].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[7].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[7].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[8].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[8].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.etherSwitch.ethg$o[9].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.etherSwitch.ethg$o[9].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.open_flow_controller1.ethg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCase.open_flow_controller1.ethg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar Scenario_TestCase.clientG1[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG1[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.clientG2[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG2[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.clientG3[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG3[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.clientG4[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG4[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.clientG5[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG5[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.clientG6[0].pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar Scenario_TestCase.clientG6[0].pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+scalar Scenario_TestCase.open_flow_switch1.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch1.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch1.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch1.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch2.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch2.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch2.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch2.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch3.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch3.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch3.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch3.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch4.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch4.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch4.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch4.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch5.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch5.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch5.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch5.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch6.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch6.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch6.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch6.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch7.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch7.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch7.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch7.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch8.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch8.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch8.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch8.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_switch9.OF_Switch 	packetsDataPlane 	0
+scalar Scenario_TestCase.open_flow_switch9.OF_Switch 	packetsControlPlane 	0
+scalar Scenario_TestCase.open_flow_switch9.OF_Switch 	flowTableHit 	0
+scalar Scenario_TestCase.open_flow_switch9.OF_Switch 	flowTableMiss 	0
+scalar Scenario_TestCase.open_flow_controller1.controllerApps[0] 	numPacketOut 	0
+scalar Scenario_TestCase.open_flow_controller1.controllerApps[0] 	numFlowMod 	0
+scalar Scenario_TestCase.open_flow_controller1.controllerApps[0] 	packetsDropped 	0
+scalar Scenario_TestCase.open_flow_controller1.controllerApps[0] 	packetsFlooded 	0
+scalar Scenario_TestCase.open_flow_controller1.OF_Controller 	numPacketIn 	0

@@ -1,0 +1,1835 @@
+version 2
+run General-0-20190319-13:35:51-24773
+attr configname General
+attr controllerServiceTimeFactor 1
+attr datetime 20190319-13:35:51
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $controllerServiceTimeFactor=1
+attr iterationvars2 "$controllerServiceTimeFactor=1, $repetition=0"
+attr measurement $controllerServiceTimeFactor=1
+attr network openflow.networks.Scenario_TestCaseAltered
+attr processid 24773
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar . 	controllerServiceTimeFactor 	1
+scalar Scenario_TestCaseAltered 	hackForCreateResultsFolder 	0
+scalar Scenario_TestCaseAltered.clientG2[0].ethg$o[0].channel 	packets:count 	1961
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.open_flow_switch1.gateControlPlane$o[0].channel 	packets:count 	14
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.open_flow_switch1.gateDataPlane$o[0].channel 	packets:count 	1962
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.open_flow_switch1.gateDataPlane$o[1].channel 	packets:count 	1961
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.open_flow_controller1.ethg$o[0].channel 	packets:count 	14
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.pgw.pppg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.pgw.filterGate$o.channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.eNodeB.ppp$o.channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.clientG1[0].ethg$o[0].channel 	packets:count 	1962
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.server.pppg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	minPathLength 	2
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	maxPathLength 	-1
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	avgPathLength 	1.2297829382473e+19
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	avgNumSwitchLinks 	2
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	numClients 	2
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	numSwitches 	1
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	numPaths 	6
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	nodeInNumPaths-Scenario_TestCaseAltered.open_flow_switch1 	2
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	nodeInNumPaths-Scenario_TestCaseAltered.clientG1[0] 	2
+scalar Scenario_TestCaseAltered.openflowGraphAnalyzer 	nodeInNumPaths-Scenario_TestCaseAltered.clientG2[0] 	2
+scalar Scenario_TestCaseAltered.clientG2[0].networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.clientG2[0].networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.clientG2[0].networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.clientG2[0].networkLayer.arp 	sentReply:count 	1
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.clientG2[0].networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.clientG2[0].lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"frames/sec sent" 	39.938086800676
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"frames/sec rcvd" 	39.958452984664
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"bits/sec sent" 	20448.300441946
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"bits/sec rcvd" 	189389.54400114
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"rx channel idle (%)" 	99.808053115008
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	"rx channel utilization (%)" 	0.19194688499216
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPkFromHL:count 	1961
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPkFromHL:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPkOk:count 	1962
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	rxPkOk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	txPk:count 	1961
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	txPk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	passedUpPk:count 	1962
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].mac 	passedUpPk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	decapPk:count 	1962
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	decapPk:sum(packetBytes) 	1127048
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	encapPk:count 	1961
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Scenario_TestCaseAltered.clientG2[0].eth[0].encap 	encapPk:sum(packetBytes) 	78432
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG2[0].tcpApp[0] 	rcvdPk:count 	1957
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Scenario_TestCaseAltered.clientG2[0].tcpApp[0] 	rcvdPk:sum(packetBytes) 	1048576
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Scenario_TestCaseAltered.clientG2[0].tcpApp[0] 	endToEndDelay:histogram
+field count 1957
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	1957
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp 	initiatedARPResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.networkLayer.arp 	sentReq:count 	1
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"frames/sec sent" 	0.28512657583349
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"frames/sec rcvd" 	0.28512657583349
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"bits/sec sent" 	163.25533084866
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"bits/sec rcvd" 	171.72766338771
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"rx channel idle (%)" 	99.999810024236
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	"rx channel utilization (%)" 	0.00018997576424105
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPkFromHL:count 	14
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1002
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPkOk:count 	14
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	rxPkOk:sum(packetBytes) 	1054
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	txPk:count 	14
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	txPk:sum(packetBytes) 	1002
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	passedUpPk:count 	14
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].mac 	passedUpPk:sum(packetBytes) 	1054
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	decapPk:count 	14
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	decapPk:sum(packetBytes) 	752
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	encapPk:count 	14
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.eth[0].encap 	encapPk:sum(packetBytes) 	688
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"frames/sec sent" 	39.958452984664
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"frames/sec rcvd" 	39.938086800676
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"bits/sec sent" 	189389.54400114
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"bits/sec rcvd" 	20448.300441946
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"rx channel idle (%)" 	99.976995662003
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"rx channel utilization (%)" 	0.023004337997189
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	"rx channel collision (%)" 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	collisions 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	backoffs 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPkFromHL:count 	1962
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPkFromHL:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPkOk:count 	1961
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	rxPkOk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	txPk:count 	1962
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	txPk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	passedUpPk:count 	1961
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[0].mac 	passedUpPk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"frames/sec sent" 	39.938086800676
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"frames/sec rcvd" 	39.958452984664
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"bits/sec sent" 	20448.300441946
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"bits/sec rcvd" 	189389.54400114
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"rx channel idle (%)" 	99.808053115008
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"rx channel utilization (%)" 	0.19194688499216
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	"rx channel collision (%)" 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	collisions 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	backoffs 	0
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPkFromHL:count 	1961
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPkFromHL:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPkOk:count 	1962
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	rxPkOk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	txPk:count 	1961
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	txPk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	passedUpPk:count 	1962
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_switch1.etherMAC[1].mac 	passedUpPk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	packetsDataPlane 	3923
+scalar Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	packetsControlPlane 	7
+scalar Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	flowTableHit 	3920
+scalar Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	flowTableMiss 	3
+statistic Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	bufferSize:stats
+field count 3930
+field mean 0.0012722646310433
+field stddev 0.035650657436134
+field sum 5
+field sqrsum 5
+field min 0
+field max 1
+attr interpolationmode  none
+attr title  "BufferSize, stats"
+statistic Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	queueSize:stats
+field count 3930
+field mean 11.775318066158
+field stddev 1.2206968302746
+field sum 46277
+field sqrsum 550781
+field min 0
+field max 13
+attr interpolationmode  none
+attr title  "QueueSize, stats"
+statistic Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	dpPingPacketHash:stats
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "DpPingPacketHash, stats"
+statistic Scenario_TestCaseAltered.open_flow_switch1.OF_Switch 	cpPingPacketHash:stats
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "CpPingPacketHash, stats"
+scalar Scenario_TestCaseAltered.open_flow_controller1.controllerApps[0] 	numPacketOut 	2
+scalar Scenario_TestCaseAltered.open_flow_controller1.controllerApps[0] 	numFlowMod 	2
+scalar Scenario_TestCaseAltered.open_flow_controller1.controllerApps[0] 	packetsDropped 	0
+scalar Scenario_TestCaseAltered.open_flow_controller1.controllerApps[0] 	packetsFlooded 	1
+scalar Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp 	sentReply:count 	1
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"frames/sec sent" 	0.28512657583349
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"frames/sec rcvd" 	0.28512657583349
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"bits/sec sent" 	171.72766338771
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"bits/sec rcvd" 	163.25533084866
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"rx channel idle (%)" 	99.999818496576
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	"rx channel utilization (%)" 	0.00018150342355553
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPkFromHL:count 	14
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1054
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPkOk:count 	14
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	rxPkOk:sum(packetBytes) 	1002
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	txPk:count 	14
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	txPk:sum(packetBytes) 	1054
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	passedUpPk:count 	14
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].mac 	passedUpPk:sum(packetBytes) 	1002
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	decapPk:count 	14
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	decapPk:sum(packetBytes) 	688
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	encapPk:count 	14
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Scenario_TestCaseAltered.open_flow_controller1.eth[0].encap 	encapPk:sum(packetBytes) 	752
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.open_flow_controller1.OF_Controller 	numPacketIn 	3
+scalar Scenario_TestCaseAltered.open_flow_controller1.OF_Controller 	packetsPerSecondAt-0 	3
+scalar Scenario_TestCaseAltered.open_flow_controller1.OF_Controller 	packetsPerSecondAt-1 	3
+scalar Scenario_TestCaseAltered.open_flow_controller1.OF_Controller 	avgQueueSizeAt-0 	5.5559999999621e-06
+scalar Scenario_TestCaseAltered.pgw.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.pgw.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.pgw.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.pgw.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.pgw.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Scenario_TestCaseAltered.pgw.ppp[0].queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.pgw.ppp[0].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Scenario_TestCaseAltered.pgw.pppInterface.queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.pgw.pppInterface.ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar Scenario_TestCaseAltered.pgw.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar Scenario_TestCaseAltered.pgw.udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar Scenario_TestCaseAltered.pgw.udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Scenario_TestCaseAltered.pgw.udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.pgw.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Scenario_TestCaseAltered.pgw.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	sentPacketToLowerLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	sentPacketToLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	sentPacketToUpperLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	sentPacketToUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	receivedPacketFromLowerLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	receivedPacketFromLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	receivedPacketFromUpperLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.pdcpRrc 	receivedPacketFromUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cqiDlMuMimo0:lteAvg 	15
+attr source  cqiDlMuMimo0
+attr title  "Average cqi MuMimo band 0, lteAvg"
+attr unit  cqi
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cqiDlTxDiv0:lteAvg 	15
+attr source  cqiDlTxDiv0
+attr title  "Average cqi TxDiv band 0, lteAvg"
+attr unit  cqi
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cqiDlSpmux0:lteAvg 	15
+attr source  cqiDlSpmux0
+attr title  "Average cqi Spmux band 0, lteAvg"
+attr unit  cqi
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cqiDlSiso0:lteAvg 	15
+attr source  cqiDlSiso0
+attr title  "Average cqi siso band 0, lteAvg"
+attr unit  cqi
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	depletedPowerUl:lteAvg 	0
+attr source  depletedPowerUl
+attr title  "LTE ENodeB depleted power Ul, lteAvg"
+attr unit  watts
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	depletedPowerDl:lteAvg 	260
+attr source  depletedPowerDl
+attr title  "LTE ENodeB depleted power Dl, lteAvg"
+attr unit  watts
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	avgServedBlocksUl:lteAvg 	0
+attr source  avgServedBlocksUl
+attr title  "LTE Avg Served Blocks Ul, lteAvg"
+attr unit  blocks
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	avgServedBlocksDl:lteAvg 	0
+attr source  avgServedBlocksDl
+attr title  "LTE Avg Served Blocks Dl, lteAvg"
+attr unit  blocks
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cellBlocksUtilizationUl:lteAvg 	0
+attr source  cellBlocksUtilizationUl
+attr title  "LTE Cell Blocks Utilization Ul, lteAvg"
+attr unit  blocks
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	cellBlocksUtilizationDl:lteAvg 	0
+attr source  cellBlocksUtilizationDl
+attr title  "LTE Cell Blocks Utilization Dl, lteAvg"
+attr unit  blocks
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	measuredItbs:mean 	-nan
+attr source  measuredItbs
+attr title  "TBS index, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_4th_D2D:mean 	-nan
+attr source  harqErrorRate_4th_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_4th_Dl:mean 	-nan
+attr source  harqErrorRate_4th_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_4th_Ul:mean 	-nan
+attr source  harqErrorRate_4th_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_3rd_D2D:mean 	-nan
+attr source  harqErrorRate_3rd_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_3rd_Dl:mean 	-nan
+attr source  harqErrorRate_3rd_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_3rd_Ul:mean 	-nan
+attr source  harqErrorRate_3rd_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_2nd_D2D:mean 	-nan
+attr source  harqErrorRate_2nd_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_2nd_Dl:mean 	-nan
+attr source  harqErrorRate_2nd_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_2nd_Ul:mean 	-nan
+attr source  harqErrorRate_2nd_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_1st_D2D:mean 	-nan
+attr source  harqErrorRate_1st_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_1st_Dl:mean 	-nan
+attr source  harqErrorRate_1st_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRate_1st_Ul:mean 	-nan
+attr source  harqErrorRate_1st_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRateD2D:mean 	-nan
+attr source  harqErrorRateD2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRateDl:mean 	-nan
+attr source  harqErrorRateDl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	harqErrorRateUl:mean 	-nan
+attr source  harqErrorRateUl
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macPacketLossD2D:mean 	-nan
+attr source  macPacketLossD2D
+attr title  "Mac Packet Loss D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macPacketLossDl:mean 	-nan
+attr source  macPacketLossDl
+attr title  "Mac Packet Loss Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macPacketLossUl:mean 	-nan
+attr source  macPacketLossUl
+attr title  "Mac Packet Loss Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macCellPacketLossD2D:mean 	-nan
+attr source  macCellPacketLossD2D
+attr title  "Mac Cell Packet Loss D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macCellPacketLossUl:mean 	-nan
+attr source  macCellPacketLossUl
+attr title  "Mac Cell Packet Loss Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	macCellPacketLossDl:mean 	-nan
+attr source  macCellPacketLossDl
+attr title  "Mac Cell Packet Loss Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	sentPacketToLowerLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	sentPacketToLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	sentPacketToUpperLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	sentPacketToUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	receivedPacketFromLowerLayer:count 	8184
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	receivedPacketFromLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	receivedPacketFromUpperLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.nic.mac 	receivedPacketFromUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Scenario_TestCaseAltered.eNodeB.ppp.queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.eNodeB.ppp.ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.eNodeB.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.eNodeB.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.eNodeB.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.eNodeB.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Scenario_TestCaseAltered.eNodeB.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voipReceivedThroughtput:timeavg 	-nan
+attr source  voipReceivedThroughtput
+attr title  "Throughput received at the application level, timeavg"
+attr unit  Bps
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voipReceivedThroughtput:mean 	-nan
+attr source  voipReceivedThroughtput
+attr title  "Throughput received at the application level, mean"
+attr unit  Bps
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voipReceivedThroughtput:sum 	0
+attr source  voipReceivedThroughtput
+attr title  "Throughput received at the application level, sum"
+attr unit  Bps
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPTaildropLoss:mean 	-nan
+attr source  voIPTaildropLoss
+attr title  "VoIP Tail Drop Loss, mean"
+attr unit  ratio
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPMos:mean 	-nan
+attr source  voIPMos
+attr title  "VoIP Mos Signal, mean"
+attr unit  MOS
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPJitter:mean 	-nan
+attr source  voIPJitter
+attr title  "VoIP Playout Loss, mean"
+attr unit  s
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPPlayoutLoss:mean 	-nan
+attr source  voIPPlayoutLoss
+attr title  "VoIP Playout Loss, mean"
+attr unit  ratio
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPPlayoutDelay:mean 	-nan
+attr source  voIPPlayoutDelay
+attr title  "VoIP Playout Delay, mean"
+attr unit  s
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPFrameDelay:mean 	-nan
+attr source  voIPFrameDelay
+attr title  "VoIP Frame Delay, mean"
+attr unit  s
+scalar Scenario_TestCaseAltered.ue.udpApp[0] 	voIPFrameLoss:mean 	-nan
+attr source  voIPFrameLoss
+attr title  "VoIP Frame Loss, mean"
+attr unit  ratio
+scalar Scenario_TestCaseAltered.ue.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar Scenario_TestCaseAltered.ue.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar Scenario_TestCaseAltered.ue.udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar Scenario_TestCaseAltered.ue.udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Scenario_TestCaseAltered.ue.udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.ue.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Scenario_TestCaseAltered.ue.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	sentPacketToLowerLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	sentPacketToLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	sentPacketToUpperLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	sentPacketToUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	receivedPacketFromLowerLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	receivedPacketFromLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	receivedPacketFromUpperLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.pdcpRrc 	receivedPacketFromUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	measuredItbs:mean 	-nan
+attr source  measuredItbs
+attr title  "TBS index, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_4th_D2D:mean 	-nan
+attr source  harqErrorRate_4th_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_4th_Dl:mean 	-nan
+attr source  harqErrorRate_4th_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_4th_Ul:mean 	-nan
+attr source  harqErrorRate_4th_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_3rd_D2D:mean 	-nan
+attr source  harqErrorRate_3rd_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_3rd_Dl:mean 	-nan
+attr source  harqErrorRate_3rd_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_3rd_Ul:mean 	-nan
+attr source  harqErrorRate_3rd_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_2nd_D2D:mean 	-nan
+attr source  harqErrorRate_2nd_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_2nd_Dl:mean 	-nan
+attr source  harqErrorRate_2nd_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_2nd_Ul:mean 	-nan
+attr source  harqErrorRate_2nd_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_1st_D2D:mean 	-nan
+attr source  harqErrorRate_1st_D2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_1st_Dl:mean 	-nan
+attr source  harqErrorRate_1st_Dl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRate_1st_Ul:mean 	-nan
+attr source  harqErrorRate_1st_Ul
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRateD2D:mean 	-nan
+attr source  harqErrorRateD2D
+attr title  "Harq Error Rate D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRateDl:mean 	-nan
+attr source  harqErrorRateDl
+attr title  "Harq Error Rate Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	harqErrorRateUl:mean 	-nan
+attr source  harqErrorRateUl
+attr title  "Harq Error Rate Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macPacketLossD2D:mean 	-nan
+attr source  macPacketLossD2D
+attr title  "Mac Packet Loss D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macPacketLossDl:mean 	-nan
+attr source  macPacketLossDl
+attr title  "Mac Packet Loss Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macPacketLossUl:mean 	-nan
+attr source  macPacketLossUl
+attr title  "Mac Packet Loss Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macCellPacketLossD2D:mean 	-nan
+attr source  macCellPacketLossD2D
+attr title  "Mac Cell Packet Loss D2D, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macCellPacketLossUl:mean 	-nan
+attr source  macCellPacketLossUl
+attr title  "Mac Cell Packet Loss Ul, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	macCellPacketLossDl:mean 	-nan
+attr source  macCellPacketLossDl
+attr title  "Mac Cell Packet Loss Dl, mean"
+attr unit  ""
+scalar Scenario_TestCaseAltered.ue.nic.mac 	sentPacketToLowerLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	sentPacketToLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	sentPacketToUpperLayer:count 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	sentPacketToUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPacketToUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	receivedPacketFromLowerLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	receivedPacketFromLowerLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromLowerLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	receivedPacketFromUpperLayer:count 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.ue.nic.mac 	receivedPacketFromUpperLayer:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  receivedPacketFromUpperLayer
+scalar Scenario_TestCaseAltered.ue.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.ue.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.ue.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.ue.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.ue.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.clientG1[0].networkLayer.arp 	completedARPResolution:count 	1
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.clientG1[0].networkLayer.arp 	initiatedARPResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.clientG1[0].networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].networkLayer.arp 	sentReq:count 	1
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.clientG1[0].lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"simulated time" 	49.101
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	full-duplex 	1
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"frames/sec sent" 	39.958452984664
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"frames/sec rcvd" 	39.938086800676
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"bits/sec sent" 	189389.54400114
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"bits/sec rcvd" 	20448.300441946
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"rx channel idle (%)" 	99.976995662003
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	"rx channel utilization (%)" 	0.023004337997189
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPkFromHL:count 	1962
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPkOk:count 	1961
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	rxPkOk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	txPk:count 	1962
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	txPk:sum(packetBytes) 	1162402
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	passedUpPk:count 	1961
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].mac 	passedUpPk:sum(packetBytes) 	125504
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	decapPk:count 	1961
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	decapPk:sum(packetBytes) 	78432
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	encapPk:count 	1962
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Scenario_TestCaseAltered.clientG1[0].eth[0].encap 	encapPk:sum(packetBytes) 	1127048
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	bytesRcvd 	0
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	bytesSent 	1048576
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	endToEndDelay:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Scenario_TestCaseAltered.clientG1[0].tcpApp[0] 	sentPk:sum(packetBytes) 	1048576
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Scenario_TestCaseAltered.server.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar Scenario_TestCaseAltered.server.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Scenario_TestCaseAltered.server.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar Scenario_TestCaseAltered.server.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.server.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Scenario_TestCaseAltered.server.ppp[0].queue 	queueingTime:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar Scenario_TestCaseAltered.server.ppp[0].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
